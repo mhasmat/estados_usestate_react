@@ -12,8 +12,8 @@ const EjemploImagenes = () => {
     <div>
       <h2>Imagenes:</h2>
       <ul>      
-        <li><img src={icoDisponible} height="150px"/></li>
-        <li><img src={icoVendido} height="150px"/></li>
+        <li><img src={icoDisponible} height="150px" alt="disponible"/></li>
+        <li><img src={icoVendido} height="150px" alt="vendido"/></li>
       </ul>
     </div>
   );
